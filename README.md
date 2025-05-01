@@ -24,9 +24,11 @@ Instructions:
 
 Results:
 
-Model                     | Accuracy | Precision (Fraud) | Recall (Fraud) | F1-Score (Fraud) |
-Logistic Regression (SMOTE) | 0.98    | 0.06             |   0.92         |     0.11
-Random Forest (SMOTE)       | 0.97    | 0.06             | 0.92           |     0.09         |
+| Model                   | Accuracy | Precision (Fraud) | Recall (Fraud) | F1-Score (Fraud) |
+|------------------------|----------|--------------------|----------------|------------------|
+| Logistic Regression (SMOTE) | 0.98     | 0.06               | 0.92           | 0.11             |
+| Random Forest (SMOTE)       | 0.97     | 0.06               | 0.92           | 0.09             |
+
 
 Both models had high recall but low precision, as expected in fraud detection. Also, Random Forest did perform similarly to Logistic Regression in this setup. 
 
